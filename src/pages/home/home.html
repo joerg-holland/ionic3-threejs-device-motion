@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic ThreeJS Device Motion
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <scenegraph geometry="box" #scenegraph></scenegraph>
+  <button ion-button block (click)="rotateCameraUp()">Up</button>
+  <button ion-button block (click)="rotateCameraDown()">Down</button>
+  <button ion-button block (click)="rotateCameraLeft()">Left</button>
+  <button ion-button block (click)="rotateCameraRight()">Right</button>
+  <button ion-button block (click)="rotateCameraZUp()">ZUp</button>
+  <button ion-button block (click)="rotateCameraZDown()">ZDown</button>
+  <button ion-button block (click)="moveCameraMinus()">MoveMinus</button>
+  <button ion-button block (click)="moveCameraPlus()">MovePlus</button>
+</ion-content>
